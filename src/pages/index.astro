@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TestReactComp from '../components/TestReactComp'
+export const prerender = false
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="main-cont" >
+		<TestReactComp client:only="react" />
+	</div>	
+</Layout>
+
+
+<style>
+	.main-cont {
+		color: #fff;
+	}
+</style>
