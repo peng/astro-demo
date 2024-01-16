@@ -69,7 +69,7 @@ import http from "node:http";
 import { TLSSocket } from "node:tls";
 import { appendForwardSlash as appendForwardSlash$1, joinPaths, trimSlashes, slash, prependForwardSlash, removeTrailingForwardSlash, collapseDuplicateSlashes } from "@astrojs/internal-helpers/path";
 import { serialize, parse } from "cookie";
-import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from "./manifest_jQ0Xj5i1.mjs";
+import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from "./manifest_miIR6Ak6.mjs";
 import "kleur/colors";
 import "html-escaper";
 import "clsx";
